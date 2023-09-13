@@ -1,0 +1,23 @@
+{
+  "name": "cloud-castle/config-cache",
+  "description": "Библтотека для кеширования конфигурационных файлов и переменных среды",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "CloudCastle\\ConfigCache\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Зорин Алексей",
+      "email": "zorinalexey59292@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.1",
+    "cloud-castle/abstract-classes": "^1.0.0.2",
+    "cloud-castle/storage": "^1.0.0.12"
+  }
+}
